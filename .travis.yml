@@ -4,10 +4,10 @@ script:
  - dotnet restore
  - dotnet build
  - dotnet test UnitTestISBN/UnitTestISBN.csproj
- notifications:
-  email:
-   recipients:
-   - atitiyabuabanthao@gmail.com
-   - bundit@mycostech.com
-   on_success: always
-   on_failure: always
+notifications:
+ email:
+  recipients:
+  - atitiyabuabanthao@gmail.com
+  - bundit@mycostech.com
+ on_success: always
+ on_failure: always
