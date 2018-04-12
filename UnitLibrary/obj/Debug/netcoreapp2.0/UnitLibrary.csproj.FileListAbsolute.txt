@@ -1,0 +1,9 @@
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.deps.json
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.dll
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.pdb
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.csprojResolveAssemblyReference.cache
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.AssemblyInfoInputs.cache
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.AssemblyInfo.cs
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.dll
+C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.pdb
