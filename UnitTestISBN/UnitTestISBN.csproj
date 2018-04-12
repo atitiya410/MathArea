@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MathGeometry\MathGeometry.csproj" />
     <ProjectReference Include="..\UnitLibrary\UnitLibrary.csproj" />
   </ItemGroup>
 

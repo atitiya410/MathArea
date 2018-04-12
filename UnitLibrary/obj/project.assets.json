@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyCos\\Lab\\MathGeometry\\UnitLibrary\\UnitLibrary.csproj",
+      "projectUniqueName": "D:\\MyCos\\Lab\\MathArea\\UnitLibrary\\UnitLibrary.csproj",
       "projectName": "UnitLibrary",
-      "projectPath": "D:\\MyCos\\Lab\\MathGeometry\\UnitLibrary\\UnitLibrary.csproj",
+      "projectPath": "D:\\MyCos\\Lab\\MathArea\\UnitLibrary\\UnitLibrary.csproj",
       "packagesPath": "C:\\Users\\MOD\\.nuget\\packages\\",
-      "outputPath": "D:\\MyCos\\Lab\\MathGeometry\\UnitLibrary\\obj\\",
+      "outputPath": "D:\\MyCos\\Lab\\MathArea\\UnitLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

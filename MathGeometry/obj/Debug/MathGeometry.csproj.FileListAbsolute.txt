@@ -1,7 +1,0 @@
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\bin\Debug\MathGeometry.exe.config
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\bin\Debug\MathGeometry.exe
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\bin\Debug\MathGeometry.pdb
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\obj\Debug\MathGeometry.csprojResolveAssemblyReference.cache
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\obj\Debug\MathGeometry.csproj.CoreCompileInputs.cache
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\obj\Debug\MathGeometry.exe
-C:\Users\MOD\source\repos\MathGeometry\MathGeometry\obj\Debug\MathGeometry.pdb

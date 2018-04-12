@@ -7,3 +7,12 @@ C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitL
 C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.AssemblyInfo.cs
 C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.dll
 C:\Users\MOD\source\repos\MathGeometry\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.pdb
+D:\MyCos\Lab\MathArea\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.deps.json
+D:\MyCos\Lab\MathArea\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.dll
+D:\MyCos\Lab\MathArea\UnitLibrary\bin\Debug\netcoreapp2.0\UnitLibrary.pdb
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.csprojResolveAssemblyReference.cache
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.csproj.CoreCompileInputs.cache
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.AssemblyInfoInputs.cache
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.AssemblyInfo.cs
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.dll
+D:\MyCos\Lab\MathArea\UnitLibrary\obj\Debug\netcoreapp2.0\UnitLibrary.pdb

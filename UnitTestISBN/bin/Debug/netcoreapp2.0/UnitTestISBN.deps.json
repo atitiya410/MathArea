@@ -10,7 +10,6 @@
         "dependencies": {
           "MSTest.TestAdapter": "1.2.0",
           "MSTest.TestFramework": "1.2.0",
-          "MathGeometry": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.6.0",
           "UnitLibrary": "1.0.0"
         },
@@ -1000,11 +999,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "MathGeometry/1.0.0": {
-        "runtime": {
-          "MathGeometry.exe": {}
-        }
-      },
       "UnitLibrary/1.0.0": {
         "runtime": {
           "UnitLibrary.dll": {}
@@ -1514,11 +1508,6 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
-    },
-    "MathGeometry/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "UnitLibrary/1.0.0": {
       "type": "project",

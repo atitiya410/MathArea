@@ -1612,15 +1612,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "MathGeometry/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/MathGeometry.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MathGeometry.dll": {}
-        }
-      },
       "UnitLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5703,11 +5694,6 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "MathGeometry/1.0.0": {
-      "type": "project",
-      "path": "../MathGeometry/MathGeometry.csproj",
-      "msbuildProject": "../MathGeometry/MathGeometry.csproj"
-    },
     "UnitLibrary/1.0.0": {
       "type": "project",
       "path": "../UnitLibrary/UnitLibrary.csproj",
@@ -5718,7 +5704,6 @@
     ".NETCoreApp,Version=v2.0": [
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
-      "MathGeometry >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.6.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "UnitLibrary >= 1.0.0"
@@ -5731,11 +5716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyCos\\Lab\\MathGeometry\\UnitTestISBN\\UnitTestISBN.csproj",
+      "projectUniqueName": "D:\\MyCos\\Lab\\MathArea\\UnitTestISBN\\UnitTestISBN.csproj",
       "projectName": "UnitTestISBN",
-      "projectPath": "D:\\MyCos\\Lab\\MathGeometry\\UnitTestISBN\\UnitTestISBN.csproj",
+      "projectPath": "D:\\MyCos\\Lab\\MathArea\\UnitTestISBN\\UnitTestISBN.csproj",
       "packagesPath": "C:\\Users\\MOD\\.nuget\\packages\\",
-      "outputPath": "D:\\MyCos\\Lab\\MathGeometry\\UnitTestISBN\\obj\\",
+      "outputPath": "D:\\MyCos\\Lab\\MathArea\\UnitTestISBN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5754,11 +5739,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\MyCos\\Lab\\MathGeometry\\MathGeometry\\MathGeometry.csproj": {
-              "projectPath": "D:\\MyCos\\Lab\\MathGeometry\\MathGeometry\\MathGeometry.csproj"
-            },
-            "D:\\MyCos\\Lab\\MathGeometry\\UnitLibrary\\UnitLibrary.csproj": {
-              "projectPath": "D:\\MyCos\\Lab\\MathGeometry\\UnitLibrary\\UnitLibrary.csproj"
+            "D:\\MyCos\\Lab\\MathArea\\UnitLibrary\\UnitLibrary.csproj": {
+              "projectPath": "D:\\MyCos\\Lab\\MathArea\\UnitLibrary\\UnitLibrary.csproj"
             }
           }
         }
