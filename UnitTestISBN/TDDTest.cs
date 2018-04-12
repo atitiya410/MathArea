@@ -46,17 +46,7 @@ namespace UnitTestISBN
             Assert.AreEqual("1", result);
         }
 
-        [TestMethod]
-        public void FindFizzBuzzNumber_InputThreeAndFive_FizzBuzz()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
-        {
-            //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz();
-            int number = 3;
-            //Act
-            String result = fizzBuzz.FindFizzBuzzNumber(number); //
-            //Assert
-            Assert.AreEqual("1", result);
-        }
+       
 
     }
 }
