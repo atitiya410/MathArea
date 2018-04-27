@@ -18,13 +18,13 @@ namespace UnitTestISBN
             int width = 4;
             int height = 5;
             Triangle triange = new Triangle(width, height);
-            int number = 10;
+            
 
             //Act
             var result = triange.GetArea();
-
+            int resultAreaTriangle = 10;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultAreaTriangle, result);
         }
 
         // ############################ 2.GetPerimetorTriangle ############################
@@ -36,12 +36,12 @@ namespace UnitTestISBN
             int width = 3;
             int height = 4;
             Triangle triange = new Triangle(width, height);
-            int number = 12;
+            
             //Act
             var result = triange.GetPerimetor();
-
+            int resultPerimetorTriangle = 12;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultPerimetorTriangle, result);
         }
 
 
@@ -55,12 +55,12 @@ namespace UnitTestISBN
             int height = 5;
             Rectangle rectangle = new Rectangle(width, height);
 
-            int number = 25;
+            
             //Act
             var result = rectangle.GetArea();
-
+            int resultAreaRectangle = 25;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultAreaRectangle, result);
         }
 
         // ############################ 4.GetPerimetorRectangle ############################
@@ -73,14 +73,12 @@ namespace UnitTestISBN
             int width = 10;
             int height = 6;
             Rectangle rectangle = new Rectangle(width, height);
-
-            int number = 32;
-
+  
             //Act
             var result = rectangle.GetPerimetor();
-
+            int resultPerimetorRectangle = 32;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultPerimetorRectangle, result);
         }
 
 
@@ -93,12 +91,12 @@ namespace UnitTestISBN
             int math = 10;
             Rectangle rectangle = new Square(math);
 
-            int number = 100;
+            
             //Act
             var result = rectangle.GetArea();
-
+            int resultAreaSquare = 100;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultAreaSquare, result);
         }
 
         // ############################ 6.GetPerimetorSquare ############################
@@ -111,12 +109,12 @@ namespace UnitTestISBN
             int math = 3;
             Rectangle rectangle = new Square(math);
 
-            int number = 12;
+            
             //Act
             var result = rectangle.GetPerimetor();
-
+            int resulPerimetorSquaret = 12;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resulPerimetorSquaret, result);
         }
 
 
@@ -129,13 +127,12 @@ namespace UnitTestISBN
             int width = 5;
             int height = 6;
             Ellipse ellipse = new Ellipse(width, height);
-
-            double number = 94.2;
+        
             //Act
             var result = ellipse.GetArea();
-
+            double resultAreaEllipse = 94.2;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultAreaEllipse, Math.Round(result,1));
         }
 
         // ############################ 8.GetPerimetorEllipse ############################
@@ -148,13 +145,12 @@ namespace UnitTestISBN
             int width = 2;
             int height = 2;
             Ellipse ellipse = new Ellipse(width, height);
-
-            double number = 12.56;
+        
             //Act
             var result = ellipse.GetPerimetor();
-
+            double resultPerimetorEllipse = 12.6 ;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultPerimetorEllipse, Math.Round(result,1));
         }
 
 
@@ -168,13 +164,11 @@ namespace UnitTestISBN
             int math = 4;
             Circle circle = new Circle(math);
 
-            double number = 50.24;
-
             //Act
             var result = circle.GetArea();
-
+            double resultAreaCircle = 50.2;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultAreaCircle, Math.Round(result,1));
         }
 
         // ############################ 10.GetPerimetorCircle ############################
@@ -185,14 +179,13 @@ namespace UnitTestISBN
         {
             //Arrange
             int math = 3;
-            Circle circle = new Circle(math);
-            double number = 18.84;
+            Circle circle = new Circle(math);  
 
             //Act
             var result = circle.GetPerimetor();
-
+            double resultPerimetorCircle = 18.8;
             //Assert
-            Assert.AreEqual(number, result);
+            Assert.AreEqual(resultPerimetorCircle, Math.Round(result,1));
         }
     }
 }
