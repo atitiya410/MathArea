@@ -15,13 +15,16 @@ namespace UnitTestISBN
         public void GetAreaTriangle_WidthFourHeightFive_TEN()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Triangle triange = new Triangle(4, 5);
-           
+            int width = 4;
+            int height = 5;
+            Triangle triange = new Triangle(width, height);
+            int number = 10;
+
             //Act
             var result = triange.GetArea();
 
             //Assert
-            Assert.AreEqual(10, result);
+            Assert.AreEqual(number, result);
         }
 
         // ############################ 2.GetPerimetorTriangle ############################
@@ -30,13 +33,15 @@ namespace UnitTestISBN
         public void GetPerimetorTriangle_SqrtWidthThreeHeightFour_Twelve()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Triangle triange = new Triangle(3, 4);
-
+            int width = 3;
+            int height = 4;
+            Triangle triange = new Triangle(width, height);
+            int number = 12;
             //Act
             var result = triange.GetPerimetor();
 
             //Assert
-            Assert.AreEqual(12, result);
+            Assert.AreEqual(number, result);
         }
 
 
@@ -46,13 +51,16 @@ namespace UnitTestISBN
         public void GetAreaRectangle_WidthFiveMultiplyHeightFive_Twentyfive()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Rectangle rectangle = new Rectangle(5, 5);
+            int width = 5;
+            int height = 5;
+            Rectangle rectangle = new Rectangle(width, height);
 
+            int number = 25;
             //Act
             var result = rectangle.GetArea();
 
             //Assert
-            Assert.AreEqual(25, result);
+            Assert.AreEqual(number, result);
         }
 
         // ############################ 4.GetPerimetorRectangle ############################
@@ -62,13 +70,17 @@ namespace UnitTestISBN
             //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Rectangle rectangle = new Rectangle(10, 6);
+            int width = 10;
+            int height = 6;
+            Rectangle rectangle = new Rectangle(width, height);
+
+            int number = 32;
 
             //Act
             var result = rectangle.GetPerimetor();
 
             //Assert
-            Assert.AreEqual(32, result);
+            Assert.AreEqual(number, result);
         }
 
 
@@ -78,13 +90,15 @@ namespace UnitTestISBN
         public void GetAreaSquare_WidthTenMultiplyHeightTen_Onehundred()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Rectangle rectangle = new Square(10);
+            int math = 10;
+            Rectangle rectangle = new Square(math);
 
+            int number = 100;
             //Act
             var result = rectangle.GetArea();
 
             //Assert
-            Assert.AreEqual(100, result);
+            Assert.AreEqual(number, result);
         }
 
         // ############################ 6.GetPerimetorSquare ############################
@@ -94,13 +108,15 @@ namespace UnitTestISBN
         //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Rectangle rectangle = new Square(3);
+            int math = 3;
+            Rectangle rectangle = new Square(math);
 
+            int number = 12;
             //Act
             var result = rectangle.GetPerimetor();
 
             //Assert
-            Assert.AreEqual(12, result);
+            Assert.AreEqual(number, result);
         }
 
 
@@ -110,13 +126,16 @@ namespace UnitTestISBN
         public void GetAreaEllipse_ThreePointfourteenMultiplyWidthFiveMultiplyHeightSix_NinetyfourPointTwo()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Ellipse ellipse = new Ellipse(5, 6);
+            int width = 5;
+            int height = 6;
+            Ellipse ellipse = new Ellipse(width, height);
 
+            double number = 94.2;
             //Act
             var result = ellipse.GetArea();
 
             //Assert
-            Assert.AreEqual(94.2, result);
+            Assert.AreEqual(number, result);
         }
 
         // ############################ 8.GetPerimetorEllipse ############################
@@ -126,13 +145,16 @@ namespace UnitTestISBN
         //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Ellipse ellipse = new Ellipse(2, 2);
+            int width = 2;
+            int height = 2;
+            Ellipse ellipse = new Ellipse(width, height);
 
+            double number = 12.56;
             //Act
             var result = ellipse.GetPerimetor();
 
             //Assert
-            Assert.AreEqual(12.56, result);
+            Assert.AreEqual(number, result);
         }
 
 
@@ -142,13 +164,17 @@ namespace UnitTestISBN
         public void GetAreaCircle_ThreePointfourteenMultiplyFour_FiftyPointTwentyfour()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Circle circle = new Circle(4);
+            
+            int math = 4;
+            Circle circle = new Circle(math);
+
+            double number = 50.24;
 
             //Act
             var result = circle.GetArea();
 
             //Assert
-            Assert.AreEqual(50.24, result);
+            Assert.AreEqual(number, result);
         }
 
         // ############################ 10.GetPerimetorCircle ############################
@@ -158,13 +184,15 @@ namespace UnitTestISBN
         //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
-            Circle circle = new Circle(3);
+            int math = 3;
+            Circle circle = new Circle(math);
+            double number = 18.84;
 
             //Act
             var result = circle.GetPerimetor();
 
             //Assert
-            Assert.AreEqual(18.84, result);
+            Assert.AreEqual(number, result);
         }
     }
 }

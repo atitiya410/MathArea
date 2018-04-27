@@ -35,6 +35,20 @@ namespace UnitTestISBN
         }
 
         [TestMethod]
+        public void FindFizzBuzzNumber_InputFifteen_FizzBuzz()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
+        {
+            //Arrange
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            int number = 15;
+            //Act
+            String result = fizzBuzz.FindFizzBuzzNumber(number); //
+            //Assert
+            Assert.AreEqual("FizzBuzz", result);
+        }
+
+
+
+        [TestMethod]
         public void FindFizzBuzzNumber_InputNumber_Number()  //ชื่อฟังก์ชั่น_จะtestอะไร_ผลัพธ์ที่ได้
         {
             //Arrange
@@ -44,9 +58,7 @@ namespace UnitTestISBN
             String result = fizzBuzz.FindFizzBuzzNumber(number); //
             //Assert
             Assert.AreEqual("1", result);
-        }
-
-       
+        }  
 
     }
 }
